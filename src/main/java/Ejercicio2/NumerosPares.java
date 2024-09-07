@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class NumerosPares {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduce un número: ");
+        System.out.println("Suma de solo numeros pares");
+        System.out.print("Introduce cualquier numero: ");
         int n = scanner.nextInt();
         int suma = 0;
 
