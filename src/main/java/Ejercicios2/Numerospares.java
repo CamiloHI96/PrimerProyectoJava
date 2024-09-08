@@ -1,7 +1,7 @@
-package Ejercicio2;
+package Ejercicios2;
 import java.util.Scanner;
 
-public class NumerosPares {
+public class Numerospares {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Suma de solo numeros pares");
