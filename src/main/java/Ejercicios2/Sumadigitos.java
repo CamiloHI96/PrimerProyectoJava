@@ -2,20 +2,19 @@ package Ejercicios2;
 
 import java.util.Scanner;
 
-public class Invertirnumero {
+public class Sumadigitos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Invertir Numero");
+        System.out.print("Suma de digitos de un numero");
         System.out.print("Introduce un número: ");
         int numero = scanner.nextInt();
-        int invertido = 0;
+        int suma = 0;
 
         while (numero != 0) {
-            int digito = numero % 10;
-            invertido = invertido * 10 + digito;
+            suma += numero % 10;
             numero /= 10;
         }
 
-        System.out.println("El número invertido es: " + invertido);
+        System.out.println("La suma de los dígitos es: " + suma);
     }
 }
