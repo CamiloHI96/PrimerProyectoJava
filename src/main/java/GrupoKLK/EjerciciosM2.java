@@ -2,8 +2,8 @@ package GrupoKLK;
 
 import java.util.Scanner;
 
-public class Menu {
-    public static void main(String[] args) {
+public class EjerciciosM2 {
+        public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
@@ -17,7 +17,7 @@ public class Menu {
 
             switch (opcion) {
                 case 1:
-                    EjerciciosM2.main(args);
+                    Ejercicios2.Adivinarelnumero.main(args);
                     break;
                 case 2:
                     break;
