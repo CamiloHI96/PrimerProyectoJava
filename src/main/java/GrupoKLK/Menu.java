@@ -9,8 +9,8 @@ public class Menu {
 
         do {
             System.out.println("Menú Principal");
-            System.out.println("1. Ejercicio 2.1");
-            System.out.println("2. Ejercicio 2.2");
+            System.out.println("1. Ejercicios 2");
+            System.out.println("2. Ejercicios 3");
             System.out.println("3. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
@@ -20,6 +20,7 @@ public class Menu {
                     EjerciciosM2.main(args);
                     break;
                 case 2:
+                    EjerciciosM3.main(args);
                     break;
                 case 3:
                     System.out.println("Saliendo del programa...");

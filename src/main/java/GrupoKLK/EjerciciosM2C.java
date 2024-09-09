@@ -2,7 +2,7 @@ package GrupoKLK;
 
 import java.util.Scanner;
 
-public class EjerciciosM2 {
+public class EjerciciosM2C {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
@@ -17,40 +17,36 @@ public class EjerciciosM2 {
             System.out.println("6. Ejercicio 2.6");
             System.out.println("7. Ejercicio 2.7");
             System.out.println("8. Ejercicio 2.8");
-            System.out.println("9. Sgts ejercicios");
-            System.out.println("10. Salir");
+            System.out.println("9. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
 
             switch (opcion) {
                 case 1:
-                    Ejercicios2.Adivinarelnumero.main(args);
+                    Ejercicios2.Numeroprimo.main(args);
                     break;
                 case 2:
-                    Ejercicios2.CalculadoraBasica.main(args);
+                    Ejercicios2.Numerospares.main(args);
                     break;
                 case 3:
-                    Ejercicios2.Contadorpositivosynegativos.main(args);
+                    Ejercicios2.Ordenartresnumeros.main(args);
                     break;
                 case 4:
-                    Ejercicios2.Contadorvocales.main(args);
+                    Ejercicios2.Piramide.main(args);
                     break;
                 case 5:
-                    Ejercicios2.Contardigitos.main(args);
+                    Ejercicios2.Sumadenumeros.main(args);
                     break;
                 case 6:
-                    Ejercicios2.Conteodepalabrasenfrase.main(args);
+                    Ejercicios2.Sumadigitos.main(args);
                     break;
                 case 7:
-                    Ejercicios2.Convertirtemperatura.main(args);
+                    Ejercicios2.Sumaparesyimpares.main(args);
                     break;
                 case 8:
-                    Ejercicios2.Factorial.main(args);
+                    Ejercicios2.Tablamultiplicar.main(args);
                     break;
                 case 9:
-                    GrupoKLK.EjerciciosM2B.main(args);
-                    break;
-                case 10:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
