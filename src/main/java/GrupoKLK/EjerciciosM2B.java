@@ -2,7 +2,7 @@ package GrupoKLK;
 
 import java.util.Scanner;
 
-public class EjerciciosM2 {
+public class EjerciciosM2B {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
@@ -24,31 +24,31 @@ public class EjerciciosM2 {
 
             switch (opcion) {
                 case 1:
-                    Ejercicios2.Adivinarelnumero.main(args);
+                    Ejercicios2.Fibonacci.main(args);
                     break;
                 case 2:
-                    Ejercicios2.CalculadoraBasica.main(args);
+                    Ejercicios2.FizzBuzz.main(args);
                     break;
                 case 3:
-                    Ejercicios2.Contadorpositivosynegativos.main(args);
+                    Ejercicios2.Invertirnumero.main(args);
                     break;
                 case 4:
-                    Ejercicios2.Contadorvocales.main(args);
+                    Ejercicios2.MatrizIdentidad.main(args);
                     break;
                 case 5:
-                    Ejercicios2.Contardigitos.main(args);
+                    Ejercicios2.Mayorymenordeunarray.main(args);
                     break;
                 case 6:
-                    Ejercicios2.Conteodepalabrasenfrase.main(args);
+                    Ejercicios2.Mcd.main(args);
                     break;
                 case 7:
-                    Ejercicios2.Convertirtemperatura.main(args);
+                    Ejercicios2.Mcm.main(args);
                     break;
                 case 8:
-                    Ejercicios2.Factorial.main(args);
+                    Ejercicios2.Numeroperfecto.main(args);
                     break;
                 case 9:
-                    GrupoKLK.EjerciciosM2B.main(args);
+                    GrupoKLK.EjerciciosM2C.main(args);
                     break;
                 case 10:
                     System.out.println("Saliendo del programa...");
