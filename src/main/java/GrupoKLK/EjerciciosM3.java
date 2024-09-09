@@ -8,7 +8,7 @@ public class EjerciciosM3 {
         int opcion;
 
         do {
-            System.out.println("Menú Principal");
+            System.out.println("Menú Ejecicios 3");
             System.out.println("1. CajaRegistradora");
             System.out.println("2. Reporte de ventas");
             System.out.println("3. Sistema Escolar");
@@ -27,7 +27,7 @@ public class EjerciciosM3 {
                     Ejercicios3.SistemaEscolar.main(args);
                     break;
                 case 4:
-                    System.out.println("Saliendo del programa...");
+                    GrupoKLK.Menu.main(args);
                     break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");

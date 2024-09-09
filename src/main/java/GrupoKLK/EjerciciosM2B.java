@@ -8,15 +8,15 @@ public class EjerciciosM2B {
         int opcion;
 
         do {
-            System.out.println("Menú Principal");
-            System.out.println("1. Ejercicio 2.1");
-            System.out.println("2. Ejercicio 2.2");
-            System.out.println("3. Ejercicio 2.3");
-            System.out.println("4. Ejercicio 2.4");
-            System.out.println("5. Ejercicio 2.5");
-            System.out.println("6. Ejercicio 2.6");
-            System.out.println("7. Ejercicio 2.7");
-            System.out.println("8. Ejercicio 2.8");
+            System.out.println("Menú Ejecicios 2B");
+            System.out.println("1. Ejercicio 2.9");
+            System.out.println("2. Ejercicio 2.10");
+            System.out.println("3. Ejercicio 2.11");
+            System.out.println("4. Ejercicio 2.12");
+            System.out.println("5. Ejercicio 2.13");
+            System.out.println("6. Ejercicio 2.14");
+            System.out.println("7. Ejercicio 2.15");
+            System.out.println("8. Ejercicio 2.16");
             System.out.println("9. Sgts ejercicios");
             System.out.println("10. Salir");
             System.out.print("Seleccione una opción: ");
@@ -51,7 +51,7 @@ public class EjerciciosM2B {
                     GrupoKLK.EjerciciosM2C.main(args);
                     break;
                 case 10:
-                    System.out.println("Saliendo del programa...");
+                    GrupoKLK.Menu.main(args);
                     break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");
