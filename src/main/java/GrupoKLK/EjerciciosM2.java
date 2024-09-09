@@ -8,7 +8,7 @@ public class EjerciciosM2 {
         int opcion;
 
         do {
-            System.out.println("Menú Principal");
+            System.out.println("Menú Ejecicios 2A");
             System.out.println("1. Ejercicio 2.1");
             System.out.println("2. Ejercicio 2.2");
             System.out.println("3. Ejercicio 2.3");
@@ -51,7 +51,7 @@ public class EjerciciosM2 {
                     GrupoKLK.EjerciciosM2B.main(args);
                     break;
                 case 10:
-                    System.out.println("Saliendo del programa...");
+                    GrupoKLK.Menu.main(args);
                     break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");

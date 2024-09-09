@@ -8,15 +8,15 @@ public class EjerciciosM2C {
         int opcion;
 
         do {
-            System.out.println("Menú Principal");
-            System.out.println("1. Ejercicio 2.1");
-            System.out.println("2. Ejercicio 2.2");
-            System.out.println("3. Ejercicio 2.3");
-            System.out.println("4. Ejercicio 2.4");
-            System.out.println("5. Ejercicio 2.5");
-            System.out.println("6. Ejercicio 2.6");
-            System.out.println("7. Ejercicio 2.7");
-            System.out.println("8. Ejercicio 2.8");
+            System.out.println("Menú Ejecicios 2B");
+            System.out.println("1. Ejercicio 2.17");
+            System.out.println("2. Ejercicio 2.18");
+            System.out.println("3. Ejercicio 2.19");
+            System.out.println("4. Ejercicio 2.20");
+            System.out.println("5. Ejercicio 2.21");
+            System.out.println("6. Ejercicio 2.22");
+            System.out.println("7. Ejercicio 2.23");
+            System.out.println("8. Ejercicio 2.24");
             System.out.println("9. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
@@ -47,7 +47,7 @@ public class EjerciciosM2C {
                     Ejercicios2.Tablamultiplicar.main(args);
                     break;
                 case 9:
-                    System.out.println("Saliendo del programa...");
+                    GrupoKLK.Menu.main(args);
                     break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");
